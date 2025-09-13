@@ -10,6 +10,8 @@ My personal GraphQL learning journal with notes
 
 - [REST vs GraphQL](RESTvsGraphQL.md)
 
+- [Core Concepts Of GraphQL](/CoreConceptsOfGraphQL.md)
+
 ---
 
 **Resource Links**
