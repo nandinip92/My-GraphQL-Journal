@@ -6,8 +6,9 @@ My personal GraphQL learning journal with notes
 
 ### Contents
 
-[Introduction to GraphQL](IntroductionToGraphQL.md)
+- [Introduction to GraphQL](IntroductionToGraphQL.md)
 
+- [REST vs GraphQL](RESTvsGraphQL.md)
 
 ---
 
