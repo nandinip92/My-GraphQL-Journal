@@ -1,4 +1,4 @@
-# Core Concepts og GraphQL
+# Core Concepts of GraphQL
 
 Following are the core concepts of the GraphQL
 
