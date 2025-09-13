@@ -21,11 +21,11 @@
 
 **REST:** With a REST API, you would typically gather the data by accessing multiple endpoints. (`/users`, `/users/1/posts`).
 
-![REST-fetch-image](\Images\RESTvsGraphQL\REST-fetch.jpg)
+![REST-fetch-image](/Images/RESTvsGraphQL/REST-fetch.jpg)
 
 **GraphQL:** In GraphQL on the other hand, you’d simply send a single query to the GraphQL server that includes the concrete data requirements. The server then responds with a JSON object where these requirements are fulfilled.
 
-![GraphQL-fetch-image](\Images\RESTvsGraphQL\GraphQL-fetch.jpg)
+![GraphQL-fetch-image](/Images/RESTvsGraphQL/GraphQL-fetch.jpg)
 
 ### 3. Faster Data Retrieval
 

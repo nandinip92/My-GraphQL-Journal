@@ -1,4 +1,4 @@
-![graphql-logo](<Images\readme\GraphQL_logo_(horizontal).svg.png>)
+![graphql-logo](</Images/readme/GraphQL_logo_(horizontal).svg.png>)
 
 # My-GraphQL-Journal
 
