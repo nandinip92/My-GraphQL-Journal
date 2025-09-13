@@ -1,3 +1,5 @@
+![graphql-logo](<Images\readme\GraphQL_logo_(horizontal).svg.png>)
+
 # My-GraphQL-Journal
 
 My personal GraphQL learning journal with notes
@@ -6,7 +8,10 @@ My personal GraphQL learning journal with notes
 
 [Introduction to GraphQL](IntroductionToGraphQL.md)
 
-#### Resource Links
+
+---
+
+**Resource Links**
 
 - Official GraphQL documentation – Introduction to GraphQL on graphql.org
   👉[graphql.org](https://graphql.org/learn/?utm_source=chatgpt.com)
