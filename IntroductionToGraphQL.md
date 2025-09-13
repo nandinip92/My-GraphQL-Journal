@@ -2,6 +2,10 @@
 
 GraphQL is a query language and runtime for APIs that allows clients to request exactly the data they need. Unlike traditional REST APIs, which often return too much or too little information, GraphQL prevents over-fetching (getting unnecessary data) and under-fetching (not getting enough data, requiring multiple requests).
 
+**Query language:** Defines the syntax to specify exactly what data the client wants.
+
+**Runtime:** The server-side engine that interprets queries, fetches the requested data, and assembles the response dynamically. This means GraphQL doesn’t return predefined responses like REST; it constructs the data on the fly.
+
 #### Limitations of REST APIs:
 
 - **Over-fetching:** REST endpoints often return more data than needed, wasting bandwidth and slowing down the app.
@@ -18,10 +22,20 @@ GraphQL is a query language and runtime for APIs that allows clients to request 
 
 GraphQL differs from REST in a few ways:
 
-| Feature                   | REST                                                                                                              | GraphQL                                                                             |
-| ------------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| **Endpoints**             | Multiple endpoints for different resources (e.g., `/users`, `/posts`). Each endpoint returns a fixed set of data. | Single endpoint handles all queries and mutations, reducing the number of requests. |
-| **Data structure**        | Server defines the response structure. Clients get all fields, even if they don’t need them.                      | Clients specify exactly which fields they want, avoiding over-fetching.             |
-| **Fetching related data** | Requires multiple requests to gather related data from different endpoints.                                       | Can fetch multiple related resources in a single request.                           |
-| **Flexibility**           | Changing or extending endpoints can break existing clients.                                                       | Schema evolves easily; new fields can be added without affecting existing queries.  |
-| **Performance**           | Over-fetching or multiple requests may slow down applications.                                                    | Efficient queries reduce bandwidth usage and improve performance.                   |
+| Feature                   | REST                          | GraphQL                 |
+| ------------------------- | ----------------------------- | ----------------------- |
+| **Endpoints**             | Multiple (`/users`, `/posts`) | Single endpoint         |
+| **Data structure**        | Fixed by server               | Client specifies fields |
+| **Fetching related data** | Multiple requests needed      | Single request          |
+
+
+
+
+#### Resource Links
+
+- Official GraphQL documentation – Introduction to GraphQL on graphql.org
+  👉[graphql.org](https://graphql.org/learn/?utm_source=chatgpt.com)
+  👉[How to GraphQL](https://www.howtographql.com/basics/0-introduction/)
+- GraphQL Specification (latest release) 👉[spec.graphql.org](https://spec.graphql.org/October2021/?utm_source=chatgpt.com)
+- GraphQL FAQ, to understand how the spec is governed etc. 👉[graphql.org](https://graphql.org/faq/general/?utm_source=chatgpt.com)
+- Wikipedia page on GraphQL for summary and history 👉[Wikipedia](https://en.wikipedia.org/wiki/GraphQL?utm_source=chatgpt.com)
