@@ -28,10 +28,9 @@ GraphQL differs from REST in a few ways:
 | **Data structure**        | Fixed by server               | Client specifies fields |
 | **Fetching related data** | Multiple requests needed      | Single request          |
 
+---
 
-
-
-#### Resource Links
+**Resource Links**
 
 - Official GraphQL documentation – Introduction to GraphQL on graphql.org
   👉[graphql.org](https://graphql.org/learn/?utm_source=chatgpt.com)
