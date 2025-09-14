@@ -12,7 +12,7 @@ My personal GraphQL learning journal with notes
 
 - [Core Concepts Of GraphQL](/CoreConceptsOfGraphQL.md)
 
-- [GraphQL Server Libraries](/graphQL-server-libraries.md)
+- [GraphQL Server Libraries](/GraphQLServerLibraries.md)
 
 ---
 
