@@ -83,13 +83,9 @@ Think of them as the top-level “object” GraphQL uses to start execution.
 
 ---
 
-**Resources**
+## Summary of Everything Together— Types,Queries and Resolvers
 
-👉[How to graphql](https://www.howtographql.com/basics/2-core-concepts/)
-
-👉[GraphQL SDL](https://www.prisma.io/blog/graphql-sdl-schema-definition-language-6755bcb9ce51)
-
-👉[GraphQL Server Basics (Part I): GraphQL Schemas, TypeDefs & Resolvers Explained](https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e)
+Following is the example with [Types](/CoreConcepts/1_Types.md), [Queries](/CoreConcepts/2_Queries.md) and [Mutations](/CoreConcepts/3_Mutations.md) everthing together:
 
 ```graphql
 # Define a "User" type
@@ -124,6 +120,8 @@ type Mutation {
 }
 ```
 
+### Summary
+
 ```
 Schema (Blueprint of API)
  ├── Types       (shape of data)
@@ -134,3 +132,15 @@ Schema (Blueprint of API)
 Resolvers = Functions that fetch/modify data
 Root Object = Entry point connecting schema fields to resolvers
 ```
+
+---
+
+**Resources**
+
+👉[How to graphql](https://www.howtographql.com/basics/2-core-concepts/)
+
+👉[GraphQL SDL](https://www.prisma.io/blog/graphql-sdl-schema-definition-language-6755bcb9ce51)
+
+👉[GraphQL Server Basics (Part I): GraphQL Schemas, TypeDefs & Resolvers Explained](https://www.prisma.io/blog/graphql-server-basics-the-schema-ac5e2950214e)
+
+---
